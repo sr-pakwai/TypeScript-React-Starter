@@ -9,7 +9,154 @@
         "title": "t",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "diagramType": "STRIDE",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 55,
+                "y": 47
+              },
+              "angle": 0,
+              "id": "6f442d8f-5da5-463f-9197-e65b81b52bff",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "process 0"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 362,
+                "y": 180
+              },
+              "angle": 0,
+              "id": "f30e0760-ed17-4bd9-98e4-d56292dd42d8",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "store 1"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "6f442d8f-5da5-463f-9197-e65b81b52bff"
+              },
+              "target": {
+                "id": "f30e0760-ed17-4bd9-98e4-d56292dd42d8"
+              },
+              "vertices": [],
+              "id": "a501ae8e-7291-4bdf-9911-79c8a07ed2c2",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 2",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 225,
+                "y": 350
+              },
+              "target": {
+                "x": 660,
+                "y": 462
+              },
+              "vertices": [
+                {
+                  "x": 347,
+                  "y": 356
+                },
+                {
+                  "x": 441,
+                  "y": 374
+                },
+                {
+                  "x": 482,
+                  "y": 389
+                },
+                {
+                  "x": 570,
+                  "y": 423
+                }
+              ],
+              "id": "223bdfe6-53ab-491f-8625-18f74be4cb6c",
+              "z": 4,
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Test",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "attrs": {}
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 790
+        }
       }
     ]
   }
